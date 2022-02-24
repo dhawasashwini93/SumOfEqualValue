@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     
         if num1 != num2 {
          
-            totalAmount = num1 * 3
+            totalAmount = (num1 + num2) * 3
             print("Total Amount of Two Same Number \(String(describing: totalAmount))")
             
         } else {
